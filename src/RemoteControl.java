@@ -36,7 +36,7 @@ public class RemoteControl {
 	public String toString() {
 		String stringToReturn = "\n     Remote Control     \n";
 		for(int i = 0; i < onCommands.length; i++){
-			stringToReturn += "Slot " + i + onCommands[i].getClass().getName() + "     " + offCommands[i].getClass().getName() + "\n";
+			stringToReturn += "Slot " + i + " " + onCommands[i].getClass().getName() + "     " + offCommands[i].getClass().getName() + "\n";
 		}
 		return stringToReturn;
 	}
